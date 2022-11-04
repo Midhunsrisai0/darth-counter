@@ -1,8 +1,16 @@
+body
+{
+    background: linear-gradient(blue,black);
+}
+button:hover
+{
+  cursor: pointer;
+}
 .body {
   position: absolute;
   padding-top: 0px;
   margin: 10px;
-  color: black;
+  color: rgb(46, 40, 40);
 }
 #main
 {
@@ -45,7 +53,7 @@
   width: 200px;
   margin-left: 30px;
   margin-bottom: 50px;
-  background-color: rgb(46, 129, 236);
+  background:linear-gradient( rgb(230, 204, 204),rgb(38, 38, 241));
 }
 .d1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -55,7 +63,7 @@
   margin-bottom: 30px;
   width: 200px;
   margin-left: 260px;
-  background-color: darkred;
+  background:linear-gradient(rgb(255, 0, 0),rgb(253, 253, 253));
 }
 .i2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -65,7 +73,7 @@
   height: 50px;
   width: 200px;
   margin-left: 30px;
-  background-color: rgb(46, 129, 236);
+  background:linear-gradient(rgb(230, 204, 204),rgb(38, 38, 241));
 }
 .d2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -75,7 +83,7 @@
   margin-bottom: 30px;
   width: 200px;
   margin-left: 260px;
-  background-color: darkred;
+  background:linear-gradient(rgb(255, 0, 0),rgb(253, 253, 253));
 }
 .i3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -84,7 +92,7 @@
   height: 50px;
   width: 200px;
   margin-left: 30px;
-  background-color: rgb(46, 129, 236);
+  background:linear-gradient( rgb(230, 204, 204),rgb(38, 38, 241));
 }
 .d3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -93,7 +101,7 @@
   height: 50px;
   width: 200px;
   margin-left: 260px;
-  background-color: darkred;
+  background:linear-gradient(rgb(255, 0, 0),rgb(253, 253, 253));
 }
 
 .saveBtn
@@ -106,7 +114,7 @@
   margin-top: 100px;
   margin-left: 30px;
   margin-bottom: 30px;
-  background-color: green;
+  background:linear-gradient(rgb(30, 250, 30),cyan);
 }
 
 #psaves
